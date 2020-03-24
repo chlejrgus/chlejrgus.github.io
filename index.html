@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>HTML</title>
+    <style>
+      #jb-container {
+        width: 940px;
+        margin: 10px auto;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      #jb-header {
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      #jb-menu {
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      #jb-content {
+        width: 410px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: left;
+        border: 1px solid #bcbcbc;
+      }
+      #jb-sidebar {
+        width: 410px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border: 1px solid #bcbcbc;
+      }
+      #jb-footer {
+        clear: both;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      @media ( max-width: 480px ) {
+        #jb-container {
+          width: auto;
+        }
+        #jb-content {
+          float: none;
+          width: auto;
+        }
+        #jb-sidebar {
+          float: none;
+          width: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="jb-container">
+      <div id="jb-header">
+        <h1><course>수강과목</course></h1>
+      </div>
+      <div id="jb-menu">
+        <h1><major>전공 혹은 분야</major></h1>
+      </div>
+      <div id="jb-content">
+        <h2><cname>Content</cname></h2>
+      </div>
+      <div id="jb-sidebar">
+        <h2><code>Sidebar</code></h2>
+      </div>
+      <div id="jb-footer">
+        <credit>Links</credit>
+      </div>
+    </div>
+  </body>
+</html>
